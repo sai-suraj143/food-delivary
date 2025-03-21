@@ -1,0 +1,34 @@
+.proceed-payment {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.payment-left {
+  width: 50vw;
+}
+.multifields {
+  gap: 20px;
+  line-height: 20px;
+}
+.multifields input {
+  gap: 20px;
+  line-height: 20px;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+input:placeholder-shown {
+  color: gray;
+  font-style: italic;
+}
+
+input:focus::placeholder {
+  transform: translateY(-20px);
+  font-size: 12px;
+  color: transparent;
+  transition: transform 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+}
+.payment-right {
+  width: 50vw;
+}
